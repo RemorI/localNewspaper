@@ -1,0 +1,216 @@
+body {
+	margin: 15px;
+}
+
+/*.header {
+	border: 1px solid red;
+}*/
+
+.locals{
+	border-bottom: 1px solid #000;
+}
+
+.localNotice1, .localNotice2, .localNotice3 {
+	border-right: 1px solid #000;
+	display: inline-block;
+	width: 240px;
+	height: 240px;
+	font-size: 25px;
+	padding: 5px;
+	top: 0;
+}
+
+.localNotice1 h2, .localNotice2 h2, .localNotice3 h2{
+	color: red;
+	font-size: 30px;
+	margin-top: 5px; 
+}
+
+.localNotice3 h3 {
+	margin-right: 30px;
+}
+
+.title{
+	border-bottom: 5px solid black;
+}
+
+.puntal, .imgHeader, .mensage{
+	display: inline-block;
+}
+
+.puntal h1 {
+	font-size: 220px;
+	margin: 0;
+	line-height: 190px;
+} 
+
+.mensage{
+	float: right;
+	width: 230px;
+	font-size: 25px;
+	padding: 5px 15px 5px 5px;
+}
+
+.mensage h4{
+	font-size: 35px;
+	color: red;
+	margin: 45px 0 15px 0;
+}
+
+.mensage h5{
+	margin: 0;
+}
+
+.main{
+	border-bottom: 4px solid black;
+}
+
+.dateExtra{
+	border-bottom: 4px dashed black;
+	padding: 3px;
+}
+
+.date{
+	display: inline-block;
+	font-size: 18px;
+}
+
+.extra {
+	display: inline-block;
+	font-size: 14px;
+	float: right;
+}
+
+.extra a{
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.mainHeader {
+	border-bottom: 3px solid black;
+}
+
+.mainNotice{
+	width: 1030px;
+	display: inline-block;
+	padding-right: 20px;
+	font-size: 23px;
+}
+
+.mainNotice h1{
+	font-size: 97px;
+	margin-top: 20px;
+	line-height: 80px;
+}
+
+.secundaryNotice{
+	display: inline-block;
+	width: 261px;
+	font-size: 25px;
+	float: right;
+	margin: 0;
+}
+
+.secundaryNotice h5{
+	color: red;
+	font-size: 28px;
+	margin: 10px 0;
+}
+
+.secundaryNotice h4{
+	font-size: 42px;
+	margin: 10px 0;
+}
+
+.secundaryNotice h6{
+	margin-bottom: 0;
+}
+
+.imageNotice{
+	display: inline-block;
+}
+
+.noticeOfImg{
+	width: 260px;
+	display: inline-block;
+	float: left;
+}
+
+.noticeOfImg h3{
+	font-size: 45px;
+	margin: 10px 0;
+}
+
+.noticeOfImg h4{
+	font-size: 18px;
+	margin: 10px 5px 11px 0;
+}
+
+.noticeOfImg h6{
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	text-align: right;
+	margin: 0;
+}
+
+.futbol {
+	width: 797px;
+	display: inline-block;
+}
+
+.secundaryImageNotice1{
+	width: 260px;
+	display: inline-block;
+	float: right;
+}
+
+.secundaryImageNotice1 h5{
+	font-size: 26px;
+	color: red;
+	margin: 10px 0;
+}
+
+.secundaryImageNotice1 h4{
+	font-size: 31px;
+	margin: 10px 0;
+}
+
+.secundaryImageNotice1 h6{
+	font-size: 15px;
+	margin: 0;
+}
+
+.secundaryImageNotice2{
+	border-top: 2px solid black;
+	width: 260px;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	top: 1266px;
+	right: 15px
+}
+
+.secundaryImageNotice2 h5{
+	font-size: 26px;
+	color: red;
+	margin: 10px 0;
+}
+
+.secundaryImageNotice2 h4 {
+	font-size: 30px;
+	margin: 0;
+}
+
+#example-three{
+	cursor: default;
+	position: absolute;
+	top: 238px;
+	left: 213px;
+	text-decoration: underline;
+	background-color: white;
+	border: none;
+}
